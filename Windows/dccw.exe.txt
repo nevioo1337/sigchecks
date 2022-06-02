@@ -1,0 +1,56 @@
+sigcheck.exe -m \Windows\System32\dccw.exe
+
+--------------------------------------------------------------------------------------------------
+C:\windows\system32\dccw.exe:
+        Verified:       Signed
+        Signing date:   03:07 03.04.2022
+        Publisher:      Microsoft Windows
+        Company:        Microsoft Corporation
+        Description:    Display Color Calibration
+        Product:        Microsoft« Windows« Operating System
+        Prod version:   10.0.19041.1
+        File version:   10.0.19041.1 (WinBuild.160101.0800)
+        MachineType:    64-bit
+        Manifest:
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!-- Copyright (c) Microsoft Corporation -->
+<assembly
+    xmlns="urn:schemas-microsoft-com:asm.v1"
+    xmlns:asmv3="urn:schemas-microsoft-com:asm.v3"
+    manifestVersion="1.0">
+  <assemblyIdentity
+      type="win32"
+      publicKeyToken="6595b64144ccf1df"
+      name="Microsoft.Windows.ICM.DCCW"
+      version="5.1.0.0"
+      processorArchitecture="amd64"
+      />
+  <description>Display Color Calibration</description>
+  <dependency>
+    <dependentAssembly>
+      <assemblyIdentity
+          type="win32"
+          name="Microsoft.Windows.Common-Controls" version="6.0.0.0"
+          language="*"
+          processorArchitecture="amd64"
+          publicKeyToken="6595b64144ccf1df"
+          />
+    </dependentAssembly>
+  </dependency>
+  <trustInfo xmlns="urn:schemas-microsoft-com:asm.v3">
+    <security>
+      <requestedPrivileges>
+        <requestedExecutionLevel
+            level="requireAdministrator"
+            uiAccess="false"
+            />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <asmv3:application>
+    <asmv3:windowsSettings xmlns="http://schemas.microsoft.com/SMI/2005/WindowsSettings">
+      <dpiAware>true</dpiAware>
+      <autoElevate>true</autoElevate>
+    </asmv3:windowsSettings>
+  </asmv3:application>
+</assembly>
